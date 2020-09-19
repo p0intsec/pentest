@@ -1,0 +1,20 @@
+apt-get install -y  sudo \
+                    git \
+                    python-setuptools \
+                    python-pip \
+                    xvfb \
+                    xserver-xephyr \
+                    libxml2-dev \
+                    libxslt-dev \
+                    postgresql-server-dev-all \
+                    libcurl4-openssl-dev \
+                    proxychains \
+                    unzip \
+                    build-essential \
+                    libssl-dev \
+                    libz-dev \
+                    libffi-dev \
+                    python-dev \
+                    postgresql \
+                    postgresql-client \
+                    postgresql-client-common \

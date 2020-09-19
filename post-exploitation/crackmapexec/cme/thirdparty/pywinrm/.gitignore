@@ -1,0 +1,31 @@
+# File artifacts which may by produced regular software on Windows, Mac OS X and Linux
+Thumbs.db
+.DS_Store
+*.bak
+
+# Unit test / coverage reports
+.coverage
+.cache
+
+# JetBrains PyCharm configuration and working files
+.idea
+
+# Folder which should be used for temporary working files
+/sandbox/
+
+# Python virtual environment
+/env/
+
+# build outputs
+/build/
+/dist/
+/pywinrm.egg-info/
+/MANIFEST
+*.py[co]
+__pycache__
+~temp/
+*~
+
+/winrm/tests/config.json
+
+

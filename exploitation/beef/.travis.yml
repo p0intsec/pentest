@@ -1,0 +1,23 @@
+language: ruby
+rvm:
+  - 2.4.0
+  - 2.5.0
+  - 2.6.0
+env:
+  - "BEEF_TEST=true"
+notifications:
+  email:
+    recipients:
+      - wade@bindshell.net
+    on_success: always
+    on_failure: always
+addons:
+  apt:
+    packages:
+      - libsqlite3-dev
+      - build-essential
+      - patch
+      - ruby-dev
+      - zlib1g-dev
+      - liblzma-dev
+      - libcurl4-openssl-dev
